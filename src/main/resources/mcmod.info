@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mt",
+  "name": "MultiTech",
+  "description": "A minecraft tech mod with some different twists! :D",
+  "version": "1.12.2-0.1a",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Officialy"],
+  "credits": "Huge credit to King Of Creepers for this mod idea and textures.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

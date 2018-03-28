@@ -1,7 +1,7 @@
 package com.multiteam.mt;
 
 
-import com.multiteam.mt.utility.LogHelper;
+import com.multiteam.mt.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -27,15 +27,14 @@ public class MultiTech
     {
         proxy.preInit(e);
 
-
-        LogHelper.info("Pre Initialization Done!");
+        logger.info("Pre Initialization Done!");
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent e)
     {
 
-        LogHelper.info("Initialization Done!");
+        logger.info("Initialization Done!");
     }
 
     @Mod.EventHandler
@@ -43,6 +42,6 @@ public class MultiTech
     {
 
 
-        LogHelper.info("Post Initialization Done!");
+        logger.info("REEEEEEEEEEEE Post Initialization Done!");
     }
 }
