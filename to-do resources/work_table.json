@@ -64,8 +64,7 @@
 					],
 					"texture": "#0"
 				}
-			},
-			"type": "cube"
+			}
 		},
 		{
 			"name": "cube",
@@ -126,8 +125,7 @@
 					],
 					"texture": "#0"
 				}
-			},
-			"type": "cube"
+			}
 		},
 		{
 			"name": "cube",
@@ -170,10 +168,17 @@
 					],
 					"texture": "#0"
 				},
-				"up": {"uv": [8, 0, 16, 8], "texture": "#0"},
+				"up": {
+					"uv": [
+						8.999826002120972,
+						0.9994758605957031,
+						14.998497343063356,
+						6.998147201538086
+					],
+					"texture": "#0"
+				},
 				"down": {"uv": [8, 0, 16, 8], "texture": "#0"}
-			},
-			"type": "cube"
+			}
 		},
 		{
 			"name": "cube",
@@ -238,8 +243,7 @@
 					],
 					"texture": "#0"
 				}
-			},
-			"type": "cube"
+			}
 		},
 		{
 			"name": "cube",
@@ -304,8 +308,7 @@
 					],
 					"texture": "#0"
 				}
-			},
-			"type": "cube"
+			}
 		},
 		{
 			"name": "cube",
@@ -370,8 +373,7 @@
 					],
 					"texture": "#0"
 				}
-			},
-			"type": "cube"
+			}
 		},
 		{
 			"name": "cube",
@@ -436,8 +438,7 @@
 					],
 					"texture": "#0"
 				}
-			},
-			"type": "cube"
+			}
 		},
 		{
 			"name": "cube",
@@ -469,13 +470,17 @@
 					"uv": [0, 0, 7.799364471435547, 7.998531341552734],
 					"texture": "#0"
 				}
-			},
-			"type": "cube"
+			}
 		},
 		{
 			"name": "cube",
 			"from": [16, 4, 6.5],
 			"to": [16, 11, 9.5],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [8, 7, 7]
+			},
 			"faces": {
 				"north": {
 					"uv": [
@@ -533,18 +538,17 @@
 					"texture": "#0",
 					"rotation": 270
 				}
-			},
-			"rotation": {
-				"origin": [8, 7, 7],
-				"axis": "y",
-				"angle": 0
-			},
-			"type": "cube"
+			}
 		},
 		{
 			"name": "cube",
 			"from": [0, 4, 6.5],
 			"to": [0, 11, 9.5],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [8, 7, 9]
+			},
 			"faces": {
 				"north": {
 					"uv": [
@@ -602,13 +606,7 @@
 					"texture": "#0",
 					"rotation": 90
 				}
-			},
-			"rotation": {
-				"origin": [8, 7, 9],
-				"axis": "y",
-				"angle": 0
-			},
-			"type": "cube"
+			}
 		},
 		{
 			"name": "cube",
@@ -661,8 +659,7 @@
 					],
 					"texture": "#0"
 				}
-			},
-			"type": "cube"
+			}
 		}
 	],
 	"display": {
