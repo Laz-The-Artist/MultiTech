@@ -1,7 +1,7 @@
 // Items
-item.basicscreen.name=Basic Screen
-item.carbonchip.name=Carbon Chip
-item.copperwirecoil.name=Copper Wire Coil
-item.datascreen.name=Data Screen
-item.graphite.name=Graphite
-item.magnet.name=Magnet
+item.mt.basicscreen.name=Basic Screen
+item.mt.carbonchip.name=Carbon Chip
+item.mt.copperwirecoil.name=Copper Wire Coil
+item.mt.datascreen.name=Data Screen
+item.mt.graphite.name=Graphite
+item.mt.magnet.name=Magnet

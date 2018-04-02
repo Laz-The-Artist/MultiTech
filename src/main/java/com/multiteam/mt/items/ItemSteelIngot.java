@@ -5,6 +5,8 @@ import net.minecraft.item.Item;
 
 public class ItemSteelIngot extends Item{
 
+    public static ItemSteelIngot itemSteelIngot;
+
     public ItemSteelIngot() {
         setRegistryName("steelingot");
         setUnlocalizedName(Reference.MOD_ID + ".steelingot");   // Used for lang files (en_US.lang)
