@@ -1,5 +1,7 @@
 package com.multiteam.mt.proxy;
 
+import com.multiteam.mt.registerstuff.ModBlocks;
+import com.multiteam.mt.registerstuff.ModItems;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -13,7 +15,10 @@ public class ClientProxy extends CommonProxy {
         super.preInit(e);
     }
 
+
     @SubscribeEvent
     public static void registerModels(ModelRegistryEvent event) {
+        // ModBlocks.initModels();
+        ModItems.initModels();
     }
 }

@@ -47,8 +47,6 @@ public class MultiTech {
     }
 
 
-    public static final MultiTechCreativeTabs MULTI_TECH_TAB_MAIN = new MultiTechCreativeTabs("mainTab", ModItems.dataScreen);
-
     public static class logging {
         public static void log(Level logLevel, Object object) {
             FMLLog.log(Reference.MOD_NAME, logLevel, String.valueOf(object));

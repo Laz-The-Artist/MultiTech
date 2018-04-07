@@ -30,6 +30,12 @@ public class ModItems {
     public static void initModels() {
         dataScreen.initModel();
         basicScreen.initModel();
+        carbonChip.initModel();
+        copperWireCoil.initModel();
+        graphite.initModel();
+        magnet.initModel();
+        steelIngot.initModel();
+
     }
 }
 
